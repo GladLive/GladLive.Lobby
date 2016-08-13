@@ -36,11 +36,11 @@ namespace GladLive.Lobby.Server
 		/// </summary>
 		[Required]
 		[ForeignKey(nameof(LobbyOwnerId))]
-		public LobbyUser<TLobbyConnectionDetailsType, TLobbyDetailsType> LobbyOwner { get; set; }
+		public LobbyUserModel<TLobbyConnectionDetailsType, TLobbyDetailsType> LobbyOwner { get; set; }
 
 		/// <summary>
 		/// The collection of users occupying the lobby.
 		/// </summary>
-		public virtual List<LobbyUser<TLobbyConnectionDetailsType, TLobbyDetailsType>> LobbyMember { get; set; }
+		public virtual List<LobbyUserModel<TLobbyConnectionDetailsType, TLobbyDetailsType>> LobbyMember { get; set; }
 	}
 }

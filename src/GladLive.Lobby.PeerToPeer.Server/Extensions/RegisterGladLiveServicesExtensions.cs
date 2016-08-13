@@ -28,6 +28,9 @@ namespace GladLive.Lobby.PeerToPeer.Server
 			//Register the DbContext but let the caller of this extension dictate the options.
 			mvcBuilder.Services.AddDbContext<LobbyDbContext<PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>>(options);
 
+			//Register the lobby user repo
+			mvcBuilder.Services.AddScoped<ILobbyUserRepositoryAsync<PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>,LobbyUserRepository <PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>>();
+
 			return mvcBuilder;
 		}
 	}

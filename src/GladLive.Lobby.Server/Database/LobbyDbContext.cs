@@ -18,7 +18,7 @@ namespace GladLive.Lobby.Server
 		/// <summary>
 		/// Set of the queryable lobby users registered in the context.
 		/// </summary>
-		public DbSet<LobbyUser<TLobbyConnectionDetailsType, TLobbyDetailsType>> LobbyUsers { get; set; }
+		public DbSet<LobbyUserModel<TLobbyConnectionDetailsType, TLobbyDetailsType>> LobbyUsers { get; set; }
 
 		/// <summary>
 		/// Set of queryable registered lobbies in the context.
@@ -35,7 +35,7 @@ namespace GladLive.Lobby.Server
 		{
 			//Setup the alternative key for the lobby users
 			//Usernames should be unique.
-			modelBuilder.Entity<LobbyUser<TLobbyConnectionDetailsType, TLobbyDetailsType>>()
+			modelBuilder.Entity<LobbyUserModel<TLobbyConnectionDetailsType, TLobbyDetailsType>>()
 				.HasAlternateKey(ls => ls.UserName);
 
 			//Foreign keys for the lobbyuser as a lobby owner should be unique.

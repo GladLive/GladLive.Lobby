@@ -13,7 +13,7 @@ namespace GladLive.Lobby.Server
 		where TLobbyConnectionDetailsType : class, ILobbyConnectionDetails
 		where TLobbyDetailsType : class, ILobbyDetails
 	{
-		public RegisterLobbyRequestController()
+		public RegisterLobbyRequestController(ILobbyUserRepositoryAsync<ILobbyConnectionDetails, ILobbyDetails> lobbyUserRepo)
 		{
 			
 		}

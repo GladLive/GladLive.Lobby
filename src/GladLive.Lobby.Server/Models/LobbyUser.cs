@@ -11,13 +11,13 @@ namespace GladLive.Lobby.Server
 	/// <summary>
 	/// Represents a user on the lobby server.
 	/// </summary>
-	public class LobbyUser<TLobbyConnectionDetailsType, TLobbyDetailsType>
+	public class LobbyUserModel<TLobbyConnectionDetailsType, TLobbyDetailsType>
 		where TLobbyConnectionDetailsType : class, ILobbyConnectionDetails
 		where TLobbyDetailsType : class, ILobbyDetails
 	{
 		[Key]
 		[DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-		public int UserId { get; private set; }
+		public int LobbyUserId { get; private set; }
 
 		/// <summary>
 		/// Username of the user.
@@ -27,7 +27,7 @@ namespace GladLive.Lobby.Server
 
 		/// <summary>
 		/// Foreign key for the <see cref="CurrentLobby"/> which could be null if
-		/// the <see cref="LobbyUser{TLobbyConnectionDetailsType, TLobbyDetailsType}"/> is not in a lobby.
+		/// the <see cref="LobbyUserModel{TLobbyConnectionDetailsType, TLobbyDetailsType}"/> is not in a lobby.
 		/// </summary>
 		public int? CurrentLobbyId { get; set; }
 
