@@ -52,5 +52,12 @@ namespace GladLive.Lobby.Server
 		/// <param name="userName">User name of the <see cref="LobbyUser"/>.</param>
 		/// <returns>A future of the <see cref="LobbyUser"/> with the matching <paramref name="userName"/> or null.</returns>
 		Task<bool> CreateLobbyUserAsync(string userName);
+
+		/// <summary>
+		/// Async queries for the existence of the model by the <see cref="userName"/>
+		/// </summary>
+		/// <param name="userName">Model username.</param>
+		/// <returns>A future bool of True if the model exists or false otherwise.</returns>
+		Task<bool> ExistsAsync(string userName);
 	}
 }

@@ -67,6 +67,18 @@ namespace GladLive.Lobby.Server
 		}
 
 		/// <summary>
+		/// Async queries for the existence of the model by the <see cref="userName"/>
+		/// </summary>
+		/// <param name="userName">Model username.</param>
+		/// <returns>A future bool of True if the model exists or false otherwise.</returns>
+		public async Task<bool> ExistsAsync(string userName)
+		{
+			return (await databaseContext.LobbyUsers.ToAsyncEnumerable()
+				.Where(x => x.UserName == userName)
+				.Count()) != 0;
+		}
+
+		/// <summary>
 		/// Async queries for the existence of the model by the id.
 		/// </summary>
 		/// <param name="id">Model id.</param>
