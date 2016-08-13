@@ -1,14 +1,15 @@
-﻿{
+{
   "version": "1.0.0-*",
 
-	"dependencies": {
-		"GladLive.Payload.Common": "1.0.7",
-		"GladLive.Payload.Lobby": "1.0.7",
-		"GladNet.Payload": "2.0.32",
-		"GladNet.Serializer": "2.0.32",
-		"Microsoft.AspNetCore.Mvc": "1.0.0",
-		"GladNet.ASP.Server": "1.0.18"
-	},
+    "dependencies": {
+        "GladLive.Payload.Common": "1.0.7",
+        "GladLive.Payload.Lobby": "1.0.7",
+        "GladNet.Payload": "2.0.32",
+        "GladNet.Serializer": "2.0.32",
+        "Microsoft.AspNetCore.Mvc": "1.0.0",
+        "GladNet.ASP.Server": "1.0.18",
+        "Microsoft.EntityFrameworkCore": "1.0.0"
+    },
 
 	"frameworks": {
 
