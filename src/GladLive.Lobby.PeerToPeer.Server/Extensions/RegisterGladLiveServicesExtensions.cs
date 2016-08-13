@@ -24,7 +24,8 @@ namespace GladLive.Lobby.PeerToPeer.Server
 
 			//Hook into the MVC pipeline to add custom controller register
 			mvcBuilder.ConfigureApplicationPartManager(p => p.FeatureProviders.Add(new GenericLobbyControllerFeatureProvider<PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>()));
-
+			mvcBuilder.ConfigureApplicationPartManager(p => p.FeatureProviders.Add(new GenericLobbyControllerFeatureProvider<PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>()));
+			
 			//Register the DbContext but let the caller of this extension dictate the options.
 			mvcBuilder.Services.AddDbContext<LobbyDbContext<PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>>(options);
 

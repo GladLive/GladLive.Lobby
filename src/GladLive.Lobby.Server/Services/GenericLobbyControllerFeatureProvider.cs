@@ -27,6 +27,8 @@ namespace GladLive.Lobby.Server
 		public void PopulateFeature(IEnumerable<ApplicationPart> parts, ControllerFeature feature)
 		{
 			feature.Controllers.Add(typeof(RegisterLobbyRequestController<TLobbyConnectionDetailsType, TLobbyDetailsType>).GetTypeInfo());
+			feature.Controllers.Add(typeof(HelloRequestController<TLobbyConnectionDetailsType, TLobbyDetailsType>).GetTypeInfo());
+			
 		}
 	}
 }
