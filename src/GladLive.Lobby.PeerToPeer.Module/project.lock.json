@@ -12,7 +12,7 @@
           "lib/net35/Easyception.dll": {}
         }
       },
-      "GladLive.Module.System.Library/1.0.9": {
+      "GladLive.Module.System.Library/1.0.12": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "1.0.0",
@@ -52,7 +52,7 @@
           "lib/net451/GladLive.Payload.Lobby.dll": {}
         }
       },
-      "GladNet.ASP.Formatters/1.0.18": {
+      "GladNet.ASP.Formatters/1.0.19": {
         "type": "package",
         "dependencies": {
           "GladNet.Message": "2.0.32",
@@ -66,10 +66,10 @@
           "lib/net451/GladNet.ASP.Formatters.dll": {}
         }
       },
-      "GladNet.ASP.Server/1.0.18": {
+      "GladNet.ASP.Server/1.0.19": {
         "type": "package",
         "dependencies": {
-          "GladNet.ASP.Formatters": "1.0.18",
+          "GladNet.ASP.Formatters": "1.0.19",
           "GladNet.Message": "2.0.32",
           "Microsoft.AspNetCore.Mvc": "1.0.0"
         },
@@ -1398,7 +1398,7 @@
         "dependencies": {
           "GladLive.Payload.Common": "1.0.7",
           "GladLive.Payload.Lobby": "1.0.7",
-          "GladNet.ASP.Server": "1.0.18",
+          "GladNet.ASP.Server": "1.0.19",
           "GladNet.Payload": "2.0.32",
           "GladNet.Serializer": "2.0.32",
           "Microsoft.AspNetCore.Mvc": "1.0.0",
@@ -1422,7 +1422,7 @@
           "lib/net35/Easyception.dll": {}
         }
       },
-      "GladLive.Module.System.Library/1.0.9": {
+      "GladLive.Module.System.Library/1.0.12": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "1.0.0",
@@ -1462,7 +1462,7 @@
           "lib/net452/GladLive.Payload.Lobby.dll": {}
         }
       },
-      "GladNet.ASP.Formatters/1.0.18": {
+      "GladNet.ASP.Formatters/1.0.19": {
         "type": "package",
         "dependencies": {
           "GladNet.Message": "2.0.32",
@@ -1476,10 +1476,10 @@
           "lib/net452/GladNet.ASP.Formatters.dll": {}
         }
       },
-      "GladNet.ASP.Server/1.0.18": {
+      "GladNet.ASP.Server/1.0.19": {
         "type": "package",
         "dependencies": {
-          "GladNet.ASP.Formatters": "1.0.18",
+          "GladNet.ASP.Formatters": "1.0.19",
           "GladNet.Message": "2.0.32",
           "Microsoft.AspNetCore.Mvc": "1.0.0"
         },
@@ -2808,7 +2808,7 @@
         "dependencies": {
           "GladLive.Payload.Common": "1.0.7",
           "GladLive.Payload.Lobby": "1.0.7",
-          "GladNet.ASP.Server": "1.0.18",
+          "GladNet.ASP.Server": "1.0.19",
           "GladNet.Payload": "2.0.32",
           "GladNet.Serializer": "2.0.32",
           "Microsoft.AspNetCore.Mvc": "1.0.0",
@@ -2832,7 +2832,7 @@
           "lib/net35/Easyception.dll": {}
         }
       },
-      "GladLive.Module.System.Library/1.0.9": {
+      "GladLive.Module.System.Library/1.0.12": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "1.0.0",
@@ -2872,7 +2872,7 @@
           "lib/net46/GladLive.Payload.Lobby.dll": {}
         }
       },
-      "GladNet.ASP.Formatters/1.0.18": {
+      "GladNet.ASP.Formatters/1.0.19": {
         "type": "package",
         "dependencies": {
           "GladNet.Message": "2.0.32",
@@ -2886,10 +2886,10 @@
           "lib/net452/GladNet.ASP.Formatters.dll": {}
         }
       },
-      "GladNet.ASP.Server/1.0.18": {
+      "GladNet.ASP.Server/1.0.19": {
         "type": "package",
         "dependencies": {
-          "GladNet.ASP.Formatters": "1.0.18",
+          "GladNet.ASP.Formatters": "1.0.19",
           "GladNet.Message": "2.0.32",
           "Microsoft.AspNetCore.Mvc": "1.0.0"
         },
@@ -4586,7 +4586,7 @@
         "dependencies": {
           "GladLive.Payload.Common": "1.0.7",
           "GladLive.Payload.Lobby": "1.0.7",
-          "GladNet.ASP.Server": "1.0.18",
+          "GladNet.ASP.Server": "1.0.19",
           "GladNet.Payload": "2.0.32",
           "GladNet.Serializer": "2.0.32",
           "Microsoft.AspNetCore.Mvc": "1.0.0",
@@ -4610,7 +4610,7 @@
           "lib/net35/Easyception.dll": {}
         }
       },
-      "GladLive.Module.System.Library/1.0.9": {
+      "GladLive.Module.System.Library/1.0.12": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc": "1.0.0",
@@ -4650,7 +4650,7 @@
           "lib/net461/GladLive.Payload.Lobby.dll": {}
         }
       },
-      "GladNet.ASP.Formatters/1.0.18": {
+      "GladNet.ASP.Formatters/1.0.19": {
         "type": "package",
         "dependencies": {
           "GladNet.Message": "2.0.32",
@@ -4664,10 +4664,10 @@
           "lib/net452/GladNet.ASP.Formatters.dll": {}
         }
       },
-      "GladNet.ASP.Server/1.0.18": {
+      "GladNet.ASP.Server/1.0.19": {
         "type": "package",
         "dependencies": {
-          "GladNet.ASP.Formatters": "1.0.18",
+          "GladNet.ASP.Formatters": "1.0.19",
           "GladNet.Message": "2.0.32",
           "Microsoft.AspNetCore.Mvc": "1.0.0"
         },
@@ -6364,7 +6364,7 @@
         "dependencies": {
           "GladLive.Payload.Common": "1.0.7",
           "GladLive.Payload.Lobby": "1.0.7",
-          "GladNet.ASP.Server": "1.0.18",
+          "GladNet.ASP.Server": "1.0.19",
           "GladNet.Payload": "2.0.32",
           "GladNet.Serializer": "2.0.32",
           "Microsoft.AspNetCore.Mvc": "1.0.0",
@@ -6390,12 +6390,12 @@
         "lib/net35/Easyception.dll"
       ]
     },
-    "GladLive.Module.System.Library/1.0.9": {
-      "sha512": "wvRjJosW+o8SnDuBvnoK9G3WrDDhOcmhnWnDF1chnCNyhWXH89iP5W6YXSgYlBNxmPzdwRytD7wXFe8JqrhH+A==",
+    "GladLive.Module.System.Library/1.0.12": {
+      "sha512": "Ec0sBGlH3OwGGoBxZrxgsuOOVAgCLf0imQYEoFfJpgu496rTLnyeJlsdKDXhTzXTs7TjHHKMmm7RxJdzkdasuQ==",
       "type": "package",
-      "path": "GladLive.Module.System.Library/1.0.9",
+      "path": "GladLive.Module.System.Library/1.0.12",
       "files": [
-        "GladLive.Module.System.Library.1.0.9.nupkg.sha512",
+        "GladLive.Module.System.Library.1.0.12.nupkg.sha512",
         "GladLive.Module.System.Library.nuspec",
         "lib/net451/GladLive.Module.System.Library.dll",
         "lib/net451/GladLive.Module.System.Library.xml",
@@ -6441,23 +6441,23 @@
         "lib/net461/GladLive.Payload.Lobby.dll"
       ]
     },
-    "GladNet.ASP.Formatters/1.0.18": {
-      "sha512": "6WlC6AX0uaRkcCm/8RkEG8EifK3Vvnr90hvmaDzXK+FJ0UhqPLQZrdUf1AKWd8fz1QtOPiBnoiI87hT1mWpVzw==",
+    "GladNet.ASP.Formatters/1.0.19": {
+      "sha512": "IFMufpDdqEnrtUWBJhEvJYykAUdt47q2m7gel7zYvazG9JQx15nihhRw0kHbGqSqEdoj0AImImt0ZXtppfiD8w==",
       "type": "package",
-      "path": "GladNet.ASP.Formatters/1.0.18",
+      "path": "GladNet.ASP.Formatters/1.0.19",
       "files": [
-        "GladNet.ASP.Formatters.1.0.18.nupkg.sha512",
+        "GladNet.ASP.Formatters.1.0.19.nupkg.sha512",
         "GladNet.ASP.Formatters.nuspec",
         "lib/net451/GladNet.ASP.Formatters.dll",
         "lib/net452/GladNet.ASP.Formatters.dll"
       ]
     },
-    "GladNet.ASP.Server/1.0.18": {
-      "sha512": "x2fi4VRxjYt7tcbZVGKb7RzGyj3qFqeRCOB52oZftO3B3brvsE7aunEIXyiKCdNy8Cy/NNmneV2N+AWRPWVFYg==",
+    "GladNet.ASP.Server/1.0.19": {
+      "sha512": "A4bruD/AkZZuKndzdnYoEFC8FxkJElxi10K0RR6SDA3M5DeiVHGplwMgwUqA/l1xy0KCvRopUz+24iEyHB3Srw==",
       "type": "package",
-      "path": "GladNet.ASP.Server/1.0.18",
+      "path": "GladNet.ASP.Server/1.0.19",
       "files": [
-        "GladNet.ASP.Server.1.0.18.nupkg.sha512",
+        "GladNet.ASP.Server.1.0.19.nupkg.sha512",
         "GladNet.ASP.Server.nuspec",
         "lib/net451/GladNet.ASP.Server.dll",
         "lib/net452/GladNet.ASP.Server.dll"
@@ -10126,10 +10126,10 @@
     "": [
       "GladLive.Lobby.PeerToPeer.Common >= 1.0.0-*",
       "GladLive.Lobby.Server >= 1.0.0-*",
-      "GladLive.Module.System.Library >= 1.0.9",
+      "GladLive.Module.System.Library >= 1.0.12",
       "GladLive.Payload.Common >= 1.0.7",
       "GladLive.Payload.Lobby >= 1.0.7",
-      "GladNet.ASP.Server >= 1.0.18",
+      "GladNet.ASP.Server >= 1.0.19",
       "GladNet.Payload >= 2.0.32",
       "GladNet.Serializer >= 2.0.32",
       "Microsoft.AspNetCore.Mvc >= 1.0.0",

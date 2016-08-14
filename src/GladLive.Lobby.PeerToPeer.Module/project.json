@@ -1,18 +1,18 @@
 {
   "version": "1.0.0-*",
 
-	"dependencies": {
-		"GladLive.Payload.Common": "1.0.7",
-		"GladLive.Payload.Lobby": "1.0.7",
-		"GladNet.Payload": "2.0.32",
-		"GladNet.Serializer": "2.0.32",
-		"Microsoft.AspNetCore.Mvc": "1.0.0",
-		"GladNet.ASP.Server": "1.0.18",
-		"Microsoft.EntityFrameworkCore": "1.0.0",
-		"GladLive.Lobby.Server": "1.0.0-*",
-		"GladLive.Lobby.PeerToPeer.Common": "1.0.0-*",
-		"GladLive.Module.System.Library": "1.0.9"
-	},
+    "dependencies": {
+        "GladLive.Payload.Common": "1.0.7",
+        "GladLive.Payload.Lobby": "1.0.7",
+        "GladNet.Payload": "2.0.32",
+        "GladNet.Serializer": "2.0.32",
+        "Microsoft.AspNetCore.Mvc": "1.0.0",
+        "Microsoft.EntityFrameworkCore": "1.0.0",
+        "GladLive.Lobby.Server": "1.0.0-*",
+        "GladLive.Lobby.PeerToPeer.Common": "1.0.0-*",
+        "GladLive.Module.System.Library": "1.0.12",
+        "GladNet.ASP.Server": "1.0.19"
+    },
 
 	"frameworks": {
 
