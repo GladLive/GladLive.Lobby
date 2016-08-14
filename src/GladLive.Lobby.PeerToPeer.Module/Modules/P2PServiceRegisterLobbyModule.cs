@@ -27,6 +27,7 @@ namespace GladLive.Lobby.PeerToPeer.Module
 
 			//Register the lobby user repo
 			serviceCollection.AddScoped<ILobbyUserRepositoryAsync<PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>, LobbyUserRepository<PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>>();
+			serviceCollection.AddScoped<LobbyDbContext<PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>>();
 		}
 	}
 }

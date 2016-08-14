@@ -21,9 +21,9 @@ namespace GladLive.Lobby.Server
 		where TLobbyConnectionDetailsType : class, ILobbyConnectionDetails
 		where TLobbyDetailsType : class, ILobbyDetails
 	{
-		private ILobbyUserRepositoryAsync<ILobbyConnectionDetails, ILobbyDetails> lobbyUserRepositoryService { get; }
+		private ILobbyUserRepositoryAsync<TLobbyConnectionDetailsType, TLobbyDetailsType> lobbyUserRepositoryService { get; }
 
-		public HelloRequestController(ILobbyUserRepositoryAsync<ILobbyConnectionDetails, ILobbyDetails> lobbyUserRepo)
+		public HelloRequestController(ILobbyUserRepositoryAsync<TLobbyConnectionDetailsType, TLobbyDetailsType> lobbyUserRepo)
 		{
 			lobbyUserRepositoryService = lobbyUserRepo;
 		}
