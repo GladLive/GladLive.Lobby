@@ -28,6 +28,12 @@ namespace GladLive.Lobby.Server
 			lobbyUserRepositoryService = lobbyUserRepo;
 		}
 
+		[HttpGet]
+		public string Get()
+		{
+			return "Hello, this is the lobby service. You don't speak our language.";
+		}
+
 		/// <summary>
 		/// Hello request handler. Creates a new lobby user if they've never been seen before.
 		/// </summary>

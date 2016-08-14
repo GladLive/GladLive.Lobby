@@ -6,8 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using GladLive.Lobby.Server;
 
-namespace GladLive.Lobby.Server
+namespace GladLive.Lobby.Module
 {
 	//Based on: https://github.com/aspnet/Entropy/commit/42171b7
 	/// <summary>
@@ -28,7 +29,6 @@ namespace GladLive.Lobby.Server
 		{
 			feature.Controllers.Add(typeof(RegisterLobbyRequestController<TLobbyConnectionDetailsType, TLobbyDetailsType>).GetTypeInfo());
 			feature.Controllers.Add(typeof(HelloRequestController<TLobbyConnectionDetailsType, TLobbyDetailsType>).GetTypeInfo());
-			
 		}
 	}
 }

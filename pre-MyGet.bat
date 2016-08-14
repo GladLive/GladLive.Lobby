@@ -1,3 +1,3 @@
-dotnet restore src/*/project.json
+dotnet restore
 
 
