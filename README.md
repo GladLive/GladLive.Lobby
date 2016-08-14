@@ -1,17 +1,12 @@
-# GladLive.Payload
+# GladLive.Lobby
 
 GladLive is network service comparable to Xboxlive or Steam. 
 
-GladLive.Payload provides a centralized repo for common payloads or payload logic for the GladLive distributed network providing:
-  - Simplified payload metadata marking
-  - GladLive message type information
-  - Defines the Hello request/response scheme
-
-## GladLive Services
-
-GladLive.PatchingService: https://github.com/GladLive/GladLive.PatchingService
-
-GladLive.AuthService.ASP: https://github.com/GladLive/GladLive.AuthService.ASP
+GladLive.Lobby provides libraries, contracts, and implementations for lobby systems for the GladLive distributed network. providing:
+  - Generic Lobby System
+  - Lobby ASP Controllers
+  - Lobby DB Scheme/Models
+  - PeerToPeer Lobby Implementation
 
 ## Setup
 
@@ -30,8 +25,8 @@ Available on HelloKitty Nuget feed:  https://www.myget.org/F/hellokitty/api/v2
 #### Linux/Mono - Unit Tests
 ||Debug x86|Debug x64|Release x86|Release x64|
 |:--:|:--:|:--:|:--:|:--:|:--:|
-|**master**| N/A | N/A | N/A | [![Build Status](https://travis-ci.org/GladLive/GladLive.Payload.svg?branch=master)](https://travis-ci.org/GladLive/GladLive.Payload) |
-|**dev**| N/A | N/A | N/A | [![Build Status](https://travis-ci.org/GladLive/GladLive.Payload.svg?branch=dev)](https://travis-ci.org/GladLive/GladLive.Payload)|
+|**master**| N/A | N/A | N/A | [![Build Status](https://travis-ci.org/GladLive/GladLive.Lobby.svg?branch=master)](https://travis-ci.org/GladLive/GladLive.Lobby) |
+|**dev**| N/A | N/A | N/A | [![Build Status](https://travis-ci.org/GladLive/GladLive.Lobby.svg?branch=dev)](https://travis-ci.org/GladLive/GladLive.Lobby)|
 
 #### Windows - Unit Tests
 
