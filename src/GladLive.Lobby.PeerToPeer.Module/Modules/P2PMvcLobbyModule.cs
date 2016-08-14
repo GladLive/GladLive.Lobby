@@ -23,10 +23,7 @@ namespace GladLive.Lobby.PeerToPeer.Module
 		public override void Register()
 		{
 			//Hook into the MVC pipeline to add custom controller register
-			mvcBuilderService.ConfigureApplicationPartManager(p => p.FeatureProviders.Add(new GenericLobbyControllerFeatureProvider<PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>()));
-			mvcBuilderService.ConfigureApplicationPartManager(p => p.FeatureProviders.Add(new GenericLobbyControllerFeatureProvider<PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>()));
-
-			
+			mvcBuilderService.ConfigureApplicationPartManager(p => p.FeatureProviders.Add(new GenericLobbyControllerFeatureProvider<PeerToPeerLobbyConnectionDetails, PeerToPeerLobbyDetails>()));	
 		}
 	}
 }
